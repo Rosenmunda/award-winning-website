@@ -1,10 +1,12 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaDiscord, FaTwitter, FaYoutube, FaMedium, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
   { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://www.instagram.com/anuragsen.19/", icon: <FaInstagram /> },
+  { href: "https://www.youtube.com/@vagabondvlogger7771", icon: <FaYoutube /> },
+  { href: "https://medium.com/@anuragsenhere", icon: <FaMedium /> },
+  { href: "https://www.linkedin.com/in/anurag-sen19/", icon: <FaLinkedin /> },
+  { href: "https://x.com/anuraag_sen", icon: <FaTwitter /> },
 ];
 
 const Footer = () => {
